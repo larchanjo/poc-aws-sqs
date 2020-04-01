@@ -14,8 +14,12 @@ You need to configure the following environment variables:
 * AWS_ACCESS_KEY_ID
 * AWS_SECRET_ACCESS_KEY
 
-# Testing
+# Testing Standard Queue
 
-Run the `StandardProducer.class` then `Consumer.class`
+Run the `StandardProducer.class` then `StandardConsumer.class`
+
+# Testing FIFO Queue
+
+Run the `FifoProducer.class` then `FifoConsumer.class`
 
 # Be Happy
